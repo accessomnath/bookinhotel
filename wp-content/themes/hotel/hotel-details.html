@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>:- Hotel Search Directory -:</title>
+    <!--Required styles-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootsnav.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="line-icons/css/helper.css" rel="stylesheet">
+    <link href="line-icons/css/pe-icon-7-stroke.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons'
+          rel='stylesheet' type='text/css'>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--Top Bar Start-->
+<section id="top-bar-area">
+    <div class="container-fluid">
+        <!--Navbar Menu Right Start-->
+        <nav class="navbar navbar-default bootsnav">
+
+            <!-- Start Header Navigation -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"><i
+                        class="fa fa-bars"></i></button>
+                <a class="navbar-brand" href="#"><img src="images/logo.png" class="logo" alt=""></a></div>
+            <!-- End Header Navigation -->
+
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li class="sign-registration-form-btn"><a href="#" data-toggle="modal" data-target="#registration">Registration</a>
+                    </li>
+                    <li class="sign-registration-form-btn"><a href="#" data-toggle="modal"
+                                                              data-target="#login">Login</a></li>
+                </ul>
+            </div>
+            <!--<div class="sign-registration-form-area">
+             <ul>
+             <li><a href="#">Registration</a></li>
+             <li><a href="#">Login</a></li>
+             </ul>
+             </div>-->
+
+        </nav>
+        <!--Navbar Menu Right End-->
+
+    </div>
+</section>
+<!--Top Bar End-->
+<section id="inner-page-area">
+    <div class="container-fluid">
+        <div class="col-md-2"><img src="images/ad-image/ad-img-1.jpg" alt="ad"> <img src="images/ad-image/ad-img-2.jpg"
+                                                                                     alt="ad"> <img
+                src="images/ad-image/ad-img-6.jpg" alt="ad"> <img src="images/ad-image/ad-img-4.jpg" alt="ad"></div>
+        <div class="col-md-2">
+            <aside class="booking-filters booking-filters-white">
+                <h5 style="padding-left:15px;">Simplify Your Search :</h5>
+                <!--Map Image-->
+                <p class="map-image"><a href="#"><img src="images/map-image.png" alt="Map"></a></p>
+                <!--Map Image End-->
+
+                <ul class="list booking-filters-list">
+                    <li>
+                        <h5 class="booking-filters-title">Price</h5>
+                        <input type="text" id="price-slider">
+                    </li>
+                    <li>
+                        <h5 class="booking-filters-title">Star Rating</h5>
+                        <div class="checkbox">
+                            <label>
+                                <input class="i-check" type="checkbox"/>
+                                5 star (220) </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input class="i-check" type="checkbox"/>
+                                4 star (112) </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input class="i-check" type="checkbox"/>
+                                3 star (75) </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input class="i-check" type="checkbox"/>
+                                2 star (60) </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input class="i-check" type="checkbox"/>
+                                1 star (20) </label>
+                        </div>
+                    </li>
+                    <li>
+                        <h5 class="booking-filters-title">Facility</h5>
+                        <div class="checkbox">
+                            <label>
+                                <input class="i-check" type="checkbox"/>
+                                Wi-Fi (55) </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input class="i-check" type="checkbox"/>
+                                Parking (264) </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input class="i-check" type="checkbox"/>
+                                Airport Shuttle (137) </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input class="i-check" type="checkbox"/>
+                                Fitness Center (15) </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input class="i-check" type="checkbox"/>
+                                Non-Smoking Rooms (20) </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input class="i-check" type="checkbox"/>
+                                Indoor Pool (20) </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input class="i-check" type="checkbox"/>
+                                Spa (20) </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input class="i-check" type="checkbox"/>
+                                Family Rooms (20) </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input class="i-check" type="checkbox"/>
+                                Pet Friendly (20) </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input class="i-check" type="checkbox"/>
+                                Restaurant (20) </label>
+                        </div>
+                    </li>
+                    <li>
+                        <h5 class="booking-filters-title">Hotel Amenities</h5>
+                        <div class="checkbox">
+                            <label class="">
+                                <div class="i-check">
+                                    <input class="i-check" style="position: absolute; opacity: 0;" type="checkbox">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                </div>
+                                Air conditioning (55)
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label class="">
+                                <div class="i-check">
+                                    <input class="i-check" style="position: absolute; opacity: 0;" type="checkbox">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                </div>
+                                Bathtub (264)
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label class="">
+                                <div class="i-check">
+                                    <input class="i-check" style="position: absolute; opacity: 0;" type="checkbox">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                </div>
+                                Flat-screen TV (137)
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label class="">
+                                <div class="i-check">
+                                    <input class="i-check" style="position: absolute; opacity: 0;" type="checkbox">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                </div>
+                                Kitchen/kitchenette (15)
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label class="">
+                                <div class="i-check">
+                                    <input class="i-check" style="position: absolute; opacity: 0;" type="checkbox">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                </div>
+                                Patio (20)
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label class="">
+                                <div class="i-check">
+                                    <input class="i-check" style="position: absolute; opacity: 0;" type="checkbox">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                </div>
+                                Soundproof (20)
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <div class="i-check">
+                                    <input class="i-check" style="position: absolute; opacity: 0;" type="checkbox">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                </div>
+                                Spa tub (20)
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <div class="i-check">
+                                    <input class="i-check" style="position: absolute; opacity: 0;" type="checkbox">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                </div>
+                                Terrace (20)
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <div class="i-check">
+                                    <input class="i-check" style="position: absolute; opacity: 0;" type="checkbox">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                </div>
+                                View (20)
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <div class="i-check">
+                                    <input class="i-check" style="position: absolute; opacity: 0;" type="checkbox">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                </div>
+                                Washing machine (20)
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <div class="i-check">
+                                    <input class="i-check" style="position: absolute; opacity: 0;" type="checkbox">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                </div>
+                                Bar (2)
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <div class="i-check">
+                                    <input class="i-check" style="position: absolute; opacity: 0;" type="checkbox">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                </div>
+                                Health Club (1)
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <div class="i-check">
+                                    <input class="i-check" style="position: absolute; opacity: 0;" type="checkbox">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                </div>
+                                Laundry (2)
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <div class="i-check">
+                                    <input class="i-check" style="position: absolute; opacity: 0;" type="checkbox">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                </div>
+                                Sauna (4)
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <div class="i-check">
+                                    <input class="i-check" style="position: absolute; opacity: 0;" type="checkbox">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                </div>
+                                Room Service (20)
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <div class="i-check">
+                                    <input class="i-check" style="position: absolute; opacity: 0;" type="checkbox">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                </div>
+                                Casino (10)
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <div class="i-check">
+                                    <input class="i-check" style="position: absolute; opacity: 0;" type="checkbox">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                </div>
+                                Housekeeping (15)
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <div class="i-check">
+                                    <input class="i-check" style="position: absolute; opacity: 0;" type="checkbox">
+                                    <ins class="iCheck-helper"
+                                         style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                </div>
+                                Restaurant (12)
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+        <div class="col-md-6">
+            <div class="col-md-12 padding-five"><img src="images/ad-image/ad-img-12.jpg" alt="ad"></div>
+            <div class="clearfix"></div>
+            <ul class="booking-list">
+                <li>
+                    <div class="booking-item">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="booking-item-img-wrap">
+                                            <!--Hotel Gallery-->
+                                            <div class="fotorama" data-allowfullscreen="true" data-nav="thumbs"
+                                                 data-width="100%"><img src="images/hotel-gallery-img-1.jpg" alt="img"
+                                                                        title="Hotel Short Description"/> <img
+                                                    src="images/hotel-gallery-img-2.jpg" alt="img"
+                                                    title="Hotel Short Description"/> <img
+                                                    src="images/hotel-gallery-img-3.jpg" alt="img"
+                                                    title="Hotel Short Description"/> <img
+                                                    src="images/hotel-gallery-img-4.jpg" alt="img"
+                                                    title="Hotel Short Description"/> <img
+                                                    src="images/hotel-gallery-img-5.jpg" alt="img"
+                                                    title="Hotel Short Description"/> <img
+                                                    src="images/hotel-gallery-img-6.jpg" alt="img"
+                                                    title="Hotel Short Description"/> <img
+                                                    src="images/hotel-gallery-img-7.jpg" alt="img"
+                                                    title="Hotel Short Description"/></div>
+                                            <!--Hotel Gallery End-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="hotel-details-text-section">
+                                <div class="col-md-8">
+                                    <h1>Hotel Name</h1>
+                                    <p class="booking-item-address"><i class="fa fa-map-marker"></i>New York, NY
+                                        (Midtown East)</p>
+                                    <div class="clearfix"></div>
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="tabbable booking-details-tabbable">
+                                                <ul class="nav nav-tabs" id="myTab">
+                                                    <li class="active"><a href="#tab-1" data-toggle="tab"><i
+                                                            class="fa fa-signal"></i>Rating</a></li>
+                                                    <li><a href="#tab-2" data-toggle="tab"><i class="fa fa-star"></i>Reviews</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content">
+                                                    <div class="tab-pane fade in active" id="tab-1">
+                                                        <div class="mt20">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <ul class="list booking-item-raiting-list">
+                                                                        <li>
+                                                                            <div class="booking-item-raiting-list-title">
+                                                                                Exellent
+                                                                            </div>
+                                                                            <div class="booking-item-raiting-list-bar">
+                                                                                <div style="width:86%;"></div>
+                                                                            </div>
+                                                                            <div class="booking-item-raiting-list-number">
+                                                                                1372
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="booking-item-raiting-list-title">
+                                                                                Very Good
+                                                                            </div>
+                                                                            <div class="booking-item-raiting-list-bar">
+                                                                                <div style="width:7%;"></div>
+                                                                            </div>
+                                                                            <div class="booking-item-raiting-list-number">
+                                                                                62
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="booking-item-raiting-list-title">
+                                                                                Average
+                                                                            </div>
+                                                                            <div class="booking-item-raiting-list-bar">
+                                                                                <div style="width:3%;"></div>
+                                                                            </div>
+                                                                            <div class="booking-item-raiting-list-number">
+                                                                                28
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="booking-item-raiting-list-title">
+                                                                                Poor
+                                                                            </div>
+                                                                            <div class="booking-item-raiting-list-bar">
+                                                                                <div style="width:2%;"></div>
+                                                                            </div>
+                                                                            <div class="booking-item-raiting-list-number">
+                                                                                9
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="booking-item-raiting-list-title">
+                                                                                Terrible
+                                                                            </div>
+                                                                            <div class="booking-item-raiting-list-bar">
+                                                                                <div style="width:1%;"></div>
+                                                                            </div>
+                                                                            <div class="booking-item-raiting-list-number">
+                                                                                9
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="tab-2">
+                                                        <div class="slider">
+                                                            <div id="reviews-slider" class="owl-carousel owl-theme">
+                                                                <div class="item">
+                                                                    <div class="hotel-details-review-text">
+                                                                        <p>The room and bathroom were big by the
+                                                                            standards of a three star hotel. It was also
+                                                                            very clean and quiet.</p>
+                                                                        <h4>Name
+                                                                            <small>USA</small>
+                                                                        </h4>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <div class="hotel-details-review-text">
+                                                                        <p>Close to airport with hotel transport
+                                                                            available. Comfortable bed. Good food and
+                                                                            good service. Stayed one night for flight
+                                                                            stop over.</p>
+                                                                        <h4>Name
+                                                                            <small>India</small>
+                                                                        </h4>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <h2>Headline regarding hotel ... Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit. </h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequuntur <b>minibar</b>
+                                        culpa delectus eligendi est eveniet fugiat <b>TV</b> iste laborum laudantium
+                                        magnam maiores modi odit optio perspiciatis, porro quae qui quibusdam quod quos
+                                        ratione reiciendis sapiente tempora unde? Ab assumenda, commodi consectetur cum
+                                        distinctio earum excepturi ipsam minima minus non veniam vero.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet <b>dry
+                                        cleaning</b> consequuntur culpa delectus eligendi est eveniet <b>free
+                                        parking</b> fugiat iste laborum laudantium magnam maiores modi odit optio
+                                        perspiciatis, porro quae qui quibusdam quod quos ratione reiciendis sapiente
+                                        tempora unde? Ab assumenda, commodi consectetur cum distinctio earum excepturi
+                                        ipsam minima minus non veniam vero.</p>
+                                    <h4>Most Popular Facilities</h4>
+                                    <ul class="facility-icons">
+                                        <li><i><img src="images/hotel-facilitys-icons/swimming-icon.png" alt="img"></i>Swimming
+                                            Pool
+                                        </li>
+                                        <li><i><img src="images/hotel-facilitys-icons/whirlpool-icon.png" alt="img"></i>Whirlpool
+                                        </li>
+                                        <li><i><img src="images/hotel-facilitys-icons/refrigerator-icon.png" alt="img"></i>Refridgerator
+                                        </li>
+                                        <li><i><img src="images/hotel-facilitys-icons/microwave-icon.png" alt="img"></i>Microwave
+                                            Oven
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="why-guest-love-hotel-area">
+                                        <h4>Guests Love It Because... </h4>
+                                        <b>Special breakfast options:</b>
+                                        <p>Continental, Vegetarian, Vegan, Buffet</p>
+                                        <ul class="special-highlight-area">
+                                            <li><i><img src="images/hotel-facilitys-icons/white/swimming-icon.png"
+                                                        alt="img"></i>Swimming Pool
+                                            </li>
+                                            <li><i><img src="images/hotel-facilitys-icons/white/whirlpool-icon.png"
+                                                        alt="img"></i>Whirlpool
+                                            </li>
+                                            <li><i><img src="images/hotel-facilitys-icons/white/refrigerator-icon.png"
+                                                        alt="img"></i>Refridgerator
+                                            </li>
+                                            <li><i><img src="images/hotel-facilitys-icons/white/microwave-icon.png"
+                                                        alt="img"></i>Microwave Oven
+                                            </li>
+                                            <li><i><img src="images/hotel-facilitys-icons/white/wifi-icon.png"
+                                                        alt="img"></i>Free WiFi
+                                            </li>
+                                            <li><i><img src="images/hotel-facilitys-icons/white/parking-icon.png"
+                                                        alt="img"></i>Private Parking
+                                            </li>
+                                        </ul>
+                                        <b>Loyal Customers</b>
+                                        <blockquote>There are more repeat guests here than most other properties.
+                                        </blockquote>
+                                        <a href="#" class="btn-light">Reserve</a></div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="booking-item-dates-change">
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="input-daterange" data-date-format="MM d, D">
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <div class="form-group form-group-icon-left form-group-filled">
+                                                                    <i class="fa fa-calendar input-icon input-icon-hightlight"></i>
+                                                                    <label>Check in</label>
+                                                                    <input class="form-control" name="start"
+                                                                           type="text">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="form-group form-group-icon-left form-group-filled">
+                                                                    <i class="fa fa-calendar input-icon input-icon-hightlight"></i>
+                                                                    <label>Check out</label>
+                                                                    <input class="form-control" name="end" type="text">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <div class="form-group form-group-select-plus">
+                                                        <label>Adults</label>
+                                                        <div class="btn-group btn-group-select-num hidden"
+                                                             data-toggle="buttons">
+                                                            <label class="btn btn-primary">
+                                                                <input name="options" type="radio">
+                                                                1</label>
+                                                            <label class="btn btn-primary">
+                                                                <input name="options" type="radio">
+                                                                2</label>
+                                                            <label class="btn btn-primary">
+                                                                <input name="options" type="radio">
+                                                                3</label>
+                                                            <label class="btn btn-primary active">
+                                                                <input name="options" type="radio">
+                                                                3+</label>
+                                                        </div>
+                                                        <select class="form-control">
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                            <option selected="selected">4</option>
+                                                            <option>5</option>
+                                                            <option>6</option>
+                                                            <option>7</option>
+                                                            <option>8</option>
+                                                            <option>9</option>
+                                                            <option>10</option>
+                                                            <option>11</option>
+                                                            <option>12</option>
+                                                            <option>13</option>
+                                                            <option>14</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <div class="form-group form-group-select-plus">
+                                                        <label>Children</label>
+                                                        <div class="btn-group btn-group-select-num hidden"
+                                                             data-toggle="buttons">
+                                                            <label class="btn btn-primary">
+                                                                <input name="options" type="radio">
+                                                                0</label>
+                                                            <label class="btn btn-primary">
+                                                                <input name="options" type="radio">
+                                                                1</label>
+                                                            <label class="btn btn-primary">
+                                                                <input name="options" type="radio">
+                                                                2</label>
+                                                            <label class="btn btn-primary active">
+                                                                <input name="options" type="radio">
+                                                                2+</label>
+                                                        </div>
+                                                        <select class="form-control">
+                                                            <option>0</option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option selected="selected">3</option>
+                                                            <option>4</option>
+                                                            <option>5</option>
+                                                            <option>6</option>
+                                                            <option>7</option>
+                                                            <option>8</option>
+                                                            <option>9</option>
+                                                            <option>10</option>
+                                                            <option>11</option>
+                                                            <option>12</option>
+                                                            <option>13</option>
+                                                            <option>14</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <div class="form-group form-group-select-plus">
+                                                        <label>Rooms</label>
+                                                        <div class="btn-group btn-group-select-num hidden"
+                                                             data-toggle="buttons">
+                                                            <label class="btn btn-primary">
+                                                                <input name="options" type="radio">
+                                                                1</label>
+                                                            <label class="btn btn-primary">
+                                                                <input name="options" type="radio">
+                                                                2</label>
+                                                            <label class="btn btn-primary">
+                                                                <input name="options" type="radio">
+                                                                3</label>
+                                                            <label class="btn btn-primary active">
+                                                                <input name="options" type="radio">
+                                                                3+</label>
+                                                        </div>
+                                                        <select class="form-control">
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                            <option selected="selected">4</option>
+                                                            <option>5</option>
+                                                            <option>6</option>
+                                                            <option>7</option>
+                                                            <option>8</option>
+                                                            <option>9</option>
+                                                            <option>10</option>
+                                                            <option>11</option>
+                                                            <option>12</option>
+                                                            <option>13</option>
+                                                            <option>14</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <input value="Check Availability" class="btn-light" type="submit">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <div class="clearfix"></div>
+            </ul>
+            <div class="clearfix"></div>
+            <div class="col-md-4 padding-five"><img src="images/ad-image/ad-img-7.jpg" alt="ad"></div>
+            <div class="col-md-4 padding-five"><img src="images/ad-image/ad-img-8.jpg" alt="ad"></div>
+            <div class="col-md-4 padding-five"><img src="images/ad-image/ad-img-9.jpg" alt="ad"></div>
+            <div class="col-md-12 padding-five" style="margin-top:4px;"><img src="images/ad-image/ad-img-11.jpg"
+                                                                             alt="ad"></div>
+            <div class="col-md-12 padding-five" style="margin-top:4px;"><img src="images/ad-image/ad-img-10.jpg"
+                                                                             alt="ad"></div>
+        </div>
+        <div class="col-md-2"><img src="images/ad-image/ad-img-5.jpg" alt="ad"> <img src="images/ad-image/ad-img-3.jpg"
+                                                                                     alt="ad"> <img
+                src="images/ad-image/ad-img-4.jpg" alt="ad"> <img src="images/ad-image/ad-img-6.jpg" alt="ad"></div>
+    </div>
+</section>
+<!--Footer Area Start-->
+<section id="footer-area">
+    <p>&copy; 2017 hoteldirectory.com / Developed by <a href="http://gowebbi.com" target="_blank">gowebbi.com</a></p>
+</section>
+<!--Footer Area End-->
+
+<!-- Login Modal Start -->
+<div class="modal fade-scale banner-modal-area" id="login" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <form action="#">
+                <div class="col-md-12">
+                    <div class="form-fields">
+                        <h4>User Login</h4>
+                        <input class="form-control" placeholder="Email" type="text">
+                        <input class="form-control" placeholder="Password" type="text">
+                    </div>
+                </div>
+                <div class="col-md-2 tab-button">
+                    <input value="Submit" type="submit" class="btn-light">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Login Modal End-->
+
+<!-- Registration Modal Start -->
+<div class="modal fade-scale banner-modal-area" id="registration" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <form action="#">
+                <div class="col-md-12">
+                    <div class="form-fields">
+                        <h4>User Registration</h4>
+                        <input class="form-control" placeholder="Name" type="text">
+                        <input class="form-control" placeholder="Address" type="text">
+                        <input class="form-control" placeholder="Email" type="text">
+                        <select id="" name="" class="form-control">
+                            <option value="State">Select City</option>
+                            <option value="City-1">City 1</option>
+                            <option value="City-2">City 2</option>
+                        </select>
+                        <input class="form-control" placeholder="Put Zip Code" type="text">
+                        <input class="form-control" placeholder="Contact Name" type="text">
+                        <input class="form-control" placeholder="Phone" type="text">
+                        <input class="form-control" placeholder="Password" type="text">
+                    </div>
+                </div>
+                <div class="col-md-2 tab-button">
+                    <input value="Submit" type="submit" class="btn-light">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Registration Modal End-->
+
+<!--Required js -->
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-dropdown-on-hover.js"></script>
+<script src="js/bootsnav.js"></script>
+<!-- Date Picker -->
+<script src="date-picker/monthly.js"></script>
+<link href="date-picker/monthly.css" rel="stylesheet">
+<script src="js/custom.js"></script>
+<!-- Owl Carousel -->
+<script src="owl-carousel/owl.carousel.min.js"></script>
+<script src="hotel-details/js/slimmenu.js"></script>
+<script src="hotel-details/js/bootstrap-datepicker.js"></script>
+<script src="hotel-details/js/bootstrap-timepicker.js"></script>
+<script src="js/nicescroll.js"></script>
+<script src="hotel-details/js/dropit.js"></script>
+<script src="hotel-details/js/ionrangeslider.js"></script>
+<script src="hotel-details/js/icheck.js"></script>
+<script src="hotel-details/js/fotorama.js"></script>
+<script src="hotel-details/js/typeahead.js"></script>
+<script src="hotel-details/js/card-payment.js"></script>
+<script src="hotel-details/js/magnific.js"></script>
+<script src="hotel-details/js/fitvids.js"></script>
+<script src="hotel-details/js/countdown.js"></script>
+<script src="hotel-details/js/gridrotator.js"></script>
+<script src="hotel-details/js/custom.js"></script>
+<link href="hotel-details/styles.css" rel="stylesheet">
+</body>
+</html>

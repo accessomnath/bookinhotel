@@ -1,0 +1,1084 @@
+/*Style Listed For thepowernetgroup*/
+
+
+
+/*Base Structure*/
+.site_wrapper {width: 100%;  margin: 0 auto 0 auto;}
+.container_full {width: 100%; float: left; margin: auto auto auto auto; }
+
+
+
+/*thepowernetgroup 1 Start*/
+
+#thepowernetgroup-01-first{position:relative;}
+#thepowernetgroup-01-first .custom-main-menu-section {position: relative;float: left;width: 100%;}
+.navbar .nav > li > a {float: none;color: #ffffff;text-decoration: none;padding: 14px 14px 14px !important;}
+#thepowernetgroup-01-first .custom-main-menu-section .navbar-default {color: #fff;border-top: solid 1px #4a4949;
+font-weight: 500;background: #3b679e; /* Old browsers */
+background: -moz-linear-gradient(top, #3b679e 0%, #2b88d9 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+
+#thepowernetgroup-01-first .custom-main-menu-section .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+color: #fff;background: #3b679e; /* Old browsers */
+background: -moz-linear-gradient(top, #3b679e 0%, #2b88d9 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+
+#thepowernetgroup-01-first .nav-center{width: 91%;padding: 0; margin: 0 auto;}
+#thepowernetgroup-01-first .navbar {color: #fff;text-transform: uppercase;border-radius: 0;
+background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #222, rgba(34, 34, 34, 0.05)) repeat scroll 0 0;}
+#thepowernetgroup-01-first .custom-main-menu-section .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+color: #fff !important;border-color: #fff;text-decoration: none;
+background:rgb(56, 109, 169) linear-gradient(to bottom, #0a3867, rgb(29, 147, 255)) repeat scroll 0 0!important;}
+
+#thepowernetgroup-01-first .custom-main-menu-section .navbar-default .navbar-nav > .dropdown > a .caret {
+border-top-color: #fff;border-bottom-color: #fff;}
+#thepowernetgroup-01-first .custom-main-menu-section .navbar-default .navbar-brand {color: #fff;}
+
+#thepowernetgroup-01-first .custom-main-menu-section .menu-large {position: static !important;}
+
+
+
+.custom-main-menu-section .megamenu {padding:0;width: 100%;text-align: center;}
+#thepowernetgroup-01-first .custom-main-menu-section .megamenu> li > ul {padding: 0;margin: 0;}
+#thepowernetgroup-01-first .custom-main-menu-section .megamenu> li > ul > li {list-style: none;}
+#thepowernetgroup-01-first .custom-main-menu-section .megamenu> li > ul > li > a {display: block;/*padding: 3px 20px;*/
+clear: both;font-weight: normal;line-height: 25px;color: #fff;white-space: normal;text-transform: uppercase;}
+#thepowernetgroup-01-first .custom-main-menu-section .megamenu> li.hover-gap > ul > li > a {padding: 10px 13px;
+border:solid 1px #1586ef;}
+#thepowernetgroup-01-first .custom-main-menu-section .megamenu> li ul > li > a:hover, .megamenu> li ul > li > a:focus {
+text-decoration: none;color: #fff;background-color:#376eab;line-height: 25px;}
+#thepowernetgroup-01-first .custom-main-menu-section .megamenu.disabled > a, .megamenu.disabled > a:hover, .megamenu.disabled > a:focus {
+color: #999999;}
+#thepowernetgroup-01-first .custom-main-menu-section .megamenu.disabled > a:hover, .megamenu.disabled > a:focus {
+text-decoration: none;background-color: transparent;background-image: none;
+filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+cursor: not-allowed;}
+#thepowernetgroup-01-first .custom-main-menu-section .megamenu.dropdown-header {color: #428bca;font-size: 18px;}
+
+
+
+@media (max-width: 768px) {
+.custom-main-menu-section .megamenu {margin-left: 0;margin-right: 0;}
+#thepowernetgroup-01-first .custom-main-menu-section .megamenu> li {margin-bottom: 30px;}
+#thepowernetgroup-01-first .custom-main-menu-section .megamenu> li:last-child {margin-bottom: 0;}
+#thepowernetgroup-01-first .custom-main-menu-section .megamenu.dropdown-header {padding: 3px 15px !important;}
+#thepowernetgroup-01-first .custom-main-menu-section .navbar-nav .open .dropdown-menu .dropdown-header {color: #fff;}}
+
+
+
+@media (min-width: 769px) {
+#thepowernetgroup-01-first .custom-main-menu-section .header-link-search-area {color: #fff;width: 100%;
+position: relative;top: 6px;}
+#thepowernetgroup-01-first .custom-main-menu-section .header-link-search-area-mobile {display: none;}}
+
+
+@media (max-width: 768px) {
+#thepowernetgroup-01-first .custom-main-menu-section .header-link-search-area {display: none;}
+#thepowernetgroup-01-first .custom-main-menu-section .header-link-search-area-mobile {display: block;width: 100%;
+padding-top: 10px;}
+#thepowernetgroup-01-first .navbar-toggle {margin-top: 6px;border-radius: 0;background-color: #333;
+border-color: #3b3b3b!important;margin-right: 10px;}
+#thepowernetgroup-01-first .navbar-default .navbar-collapse, .navbar-default .navbar-form {border: none;}
+#thepowernetgroup-01-first .navbar-collapse {box-shadow: none;}}
+
+
+
+
+#thepowernetgroup-01-first .custom-main-menu-section .header-link-search-area .col-md-3 {float: right;}
+#thepowernetgroup-01-first .custom-main-menu-section .header-link-search-area .col-md-2 {float: right;}
+#thepowernetgroup-01-first .custom-main-menu-section .search-top {border: 1px solid #e5e5e5;float: right;
+max-width: 250px;padding-right: 36px;position: relative;width: 100%;}
+#thepowernetgroup-01-first .custom-main-menu-section .search-top > input[type="submit"] {
+background: #fff url("support/icon-search.html") no-repeat scroll center center;border: medium none;height: 36px;
+position: absolute;right: 0;top: 0;width: 36px;}
+#thepowernetgroup-01-first .custom-main-menu-section .search-top > input[type="text"] {border: medium none;
+color: #333;height: 36px;padding: 0 15px;width: 100%;}
+#thepowernetgroup-01-first .custom-main-menu-section .register-box {float: right;list-style: outside none none;
+/*margin: 28px 0 0;*/padding: 0;}
+#thepowernetgroup-01-first .custom-main-menu-section .register-box > li {display: inline-block;margin-left: 5px;}
+#thepowernetgroup-01-first .custom-main-menu-section .register-box a {background: transparent none repeat scroll 0 0;
+border: 2px solid #2f2f2f;color: #fff;display: block;font-size: 10px;height: 36px;line-height: 36px;
+padding: 0 35px;text-transform: uppercase;transition: all 0.3s ease-out 0s;text-decoration: none;}
+#thepowernetgroup-01-first .custom-main-menu-section .register-box a:hover {background: #1a1a1a none repeat scroll 0 0;
+border-color: #1a1a1a;}
+#thepowernetgroup-01-first .custom-main-menu-section .main-nav.main-nav4 > ul {list-style: outside none none;
+margin: 0;padding: 0;}
+#thepowernetgroup-01-first .custom-main-menu-section .search-top {margin-bottom: 10px;margin-left: 10px;}
+
+
+@media screen and (min-width: 679px) and (max-width: 1199px) {
+#thepowernetgroup-01-first .custom-main-menu-section .navbar-nav > li {font-size: 11px;}
+#thepowernetgroup-01-first .custom-main-menu-section .register-box a {padding: 0 20px;}}
+
+
+#thepowernetgroup-01-first .custom-main-menu-section .dropdown-menu {background:rgb(29, 147, 255 ) !important;
+box-shadow: none;border: none;border-radius: 0;}
+#thepowernetgroup-01-first .custom-main-menu-section .dropdown-menu img {margin-bottom: 8px;}
+#thepowernetgroup-01-first .custom-main-menu-section .dropdown-menu p a {color: #fff;text-decoration: none;}
+
+#thepowernetgroup-01-first .nav > li{background: url(../images/menu-divider.html) repeat-y;
+border-right: solid 1px #77b5e6}
+#thepowernetgroup-01-first .nav > li:first-child{border-left:none; background:none;}
+#thepowernetgroup-01-first .navbar{margin-bottom:0;}
+#thepowernetgroup-01-first .shipping-area{width: 100%;float: left;background: #eee; padding: 11px 0;
+box-shadow: 0 1px 5px #c1c0c0;}
+#thepowernetgroup-01-first .shipping-area .shipping-details{ width: 58%;background: #eee;padding:0;
+overflow: hidden;margin: 0 auto;}
+#thepowernetgroup-01-first .shipping-area .shipping-details ul{ list-style-type:none;}
+
+#thepowernetgroup-01-first .shipping-area .shipping-details ul li{   list-style: none;
+display: inline;background: url(../images/menu-divider.html) repeat-y;}
+#thepowernetgroup-01-first .shipping-area .shipping-details ul li:first-child {border-left: none;background: none;}
+#thepowernetgroup-01-first .shipping-area .shipping-details li >a{ margin: 30px;line-height: 20px; color: #c1baba;
+text-transform: uppercase;}
+#thepowernetgroup-01-first .shipping-area .shipping-details li >a:hover { color: #525254;border-color: #fff;
+text-decoration: none;}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+#thepowernetgroup-01-first .nav-center {width: 100%;padding: 0;margin: 0 auto;}
+#thepowernetgroup-01-first .navbar .nav > li > a {float: none;color: #ffffff;text-decoration: none;
+padding: 14px 5px 14px !important;}}
+@media (min-width: 320px) and (max-width: 767px){
+ #thepowernetgroup-01-first .nav > li {
+    border-right:none;
+}}
+
+
+/*-----------------------------------------*/
+/* 		thepowernetgroup-01-first-end      */
+/*-----------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------*/
+/* 		  thepowernetgroup-01-second       */
+/*-----------------------------------------*/
+
+
+#thepowernetgroup-01-second{position:relative; overflow:hidden; color:#000;    background:#444444;}
+#thepowernetgroup-01-second .header-01{   width: 100%;float: left;overflow: hidden;    margin: 20px;}
+
+
+
+/*search-area*/
+#thepowernetgroup-01-second .search-area-right{margin-bottom:0;width: 50%;float:right;}
+#thepowernetgroup-01-second .search-area-right #search {float: right;margin-top: 9px;width: 250px;}
+#thepowernetgroup-01-second .search-area-right .search { padding: 5px 0;width: 230px; height: 30px; position: relative;
+left: 10px;float:right;line-height: 22px;    position: relative; margin-right: 45px;}
+#thepowernetgroup-01-second .search-area-right .search input {position: absolute;width: 0px;float: Left;
+margin-left: 210px;
+ -webkit-transition: all 0.7s ease-in-out;
+ -moz-transition: all 0.7s ease-in-out;
+ -o-transition: all 0.7s ease-in-out;
+transition: all 0.7s ease-in-out;
+height: 30px;line-height: 18px;padding: 0 2px 0 2px; border-radius:1px;}
+
+#thepowernetgroup-01-second .search-area-right .search:hover input, .search input:focus {width: 200px;margin-left: 0px; }
+#thepowernetgroup-01-second .search-area-right .btn {height: 30px; position: absolute; right: 0; top: 5px;
+border-radius:1px;}
+
+
+/*logo-area*/
+
+#thepowernetgroup-01-second .logo-area{margin-bottom:0;overflow: hidden;width: 50%;float: left;}
+#thepowernetgroup-01-second .logo-area img{ text-align:center;display: inline-block; margin-top:10px;}
+#thepowernetgroup-01-second .header-img-area{margin-top:34px;}
+
+
+/*-----------------------------------------*/
+/* 	   thepowernetgroup-01-second-end      */
+/*-----------------------------------------*/
+
+
+
+/*-----------------------------------------*/
+/* 		    thepowernetgroup-middle        */
+/*-----------------------------------------*/
+
+#thepowernetgroup-middle{position:relative; color:#000;background:#f3f3f3;padding:0; padding-bottom:40px;}
+
+#thepowernetgroup-middle .slider-area-full{ width:100%; float:left; position:relative; background:#000;}
+#thepowernetgroup-middle .slider-area-full	.carousel-control{position: absolute;top: 45%;bottom: 0;left: 0;
+width: 15%;font-size: auto;color: #fff;text-align: center;opacity: 1;text-shadow: none;}
+#thepowernetgroup-middle .slider-area-full	.carousel-control:hover{color: #000;}
+#thepowernetgroup-middle .slider-area-full	.carousel-indicators{bottom: 1px;}
+#thepowernetgroup-middle .slider-area-full	.carousel-indicators li{display: inline-block;width: 10px;height: 10px;
+margin: 1px;text-indent: -999px;cursor: pointer;background-color: #000\9;background-color: rgba(0,0,0,0);
+border:1px solid #ffffff;border-radius: 50%;}
+#thepowernetgroup-middle .slider-area-full	.carousel-indicators .active{width: 12px;height: 12px;margin: 0;
+background-color: #307fc9;}
+#thepowernetgroup-middle .slider-area-full	.carousel-caption{position: absolute;right: 0;bottom: 0;left: 0;
+z-index: 10;padding-top: 20px;padding-bottom: 20px;color: #fff;	text-align: center;background: rgba(4, 91, 185, 0.45);}
+
+#thepowernetgroup-middle .slider-area-full	.carousel-caption h3{font-size: 27px;line-height: 30px;margin-bottom: 18px;
+font-style: normal; color:#fff;}
+#thepowernetgroup-middle .slider-area-full	.carousel-caption p{font-weight: normal;line-height: 23px;
+margin-bottom: 14px;}
+
+@media (min-width: 320px) and (max-width: 500px) { 
+#thepowernetgroup-middle .slider-area-full	.carousel-caption h3 {font-size: 17px;line-height: 0;margin-bottom: 12px;
+font-style: normal;color: #fff;}
+#thepowernetgroup-middle .slider-area-full	.carousel-caption{ padding-top: 18px;padding-bottom: 0;}
+#thepowernetgroup-middle .slider-area-full	.carousel-caption p {font-weight: normal;line-height: 15px;
+margin-bottom: 27px;font-size: 10px;}}
+
+
+
+
+#thepowernetgroup-middle .area-content1{position:relative; color:#000;background:#f3f3f3;padding:0;width: 100%;
+float: left; margin-top: 40px;}
+#thepowernetgroup-middle .area-content1 h2{ font-size:30px; color:#000; text-align:center; text-transform:uppercase;
+font-weight: 500;}
+
+#thepowernetgroup-middle .area-content1 p{font-size: 14px;color: #888;text-align: left;font-weight: 500;
+margin-bottom: 20px;}
+#thepowernetgroup-middle .area-content1 .head-underline::before {background:#2881cc none repeat scroll 0 0;}
+#thepowernetgroup-middle .area-content1 .head-underline::before {background:#2881cc none repeat scroll 0 0;content: "";display: block;
+height: 2px;margin: 0 auto;width: 220px;}
+
+#thepowernetgroup-middle .area-content1 .head-underline::after {background:#2881cc none repeat scroll 0 0;}
+#thepowernetgroup-middle .area-content1 .head-underline::after {height: 3px; top: -4px;}
+#thepowernetgroup-middle .area-content1 .head-underline::after { background:#2881cc none repeat scroll 0 0;  content: ""; display: block;
+height: 6px;margin: 0 auto; position: relative; top: -6px; width: 60px;}
+.head-underline{padding-bottom: 40px;}
+
+
+
+
+
+
+
+#thepowernetgroup-middle .form-area-full{ width:100%; float:right; position:relative; background:#fff;
+padding:0;text-align: center;}
+#thepowernetgroup-middle .form-area-full .information-area{ width:100%; float:left; background-color:transparent;
+margin-top: 54px;margin-bottom: 40px;    padding: 10px;    overflow: hidden;}
+
+#thepowernetgroup-middle .form-area-full .information-area p{ font-size: 13px;color: #000;margin-bottom: 2px;font-weight: 600;}
+#thepowernetgroup-middle .form-area-full .information-area h2{color: #307fc9;font-size: 14px;font-weight: 600;margin-bottom: 0;
+line-height:0;margin-top: 35px;}
+
+#thepowernetgroup-middle .login-box{margin: 0 auto;width: 100%;display: block;float: left;background-color: transparent;
+    padding: 10px;    margin-top: 40px;
+    -moz-box-shadow: 0 2px 1px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0);
+    -o-box-shadow: 0 2px 1px rgba(0,0,0,0.2);
+    -ms-box-shadow: 0 2px 1px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0);
+}
+#thepowernetgroup-middle .login-box .panel-heading span{color:#aaa;font-size:14px}
+#thepowernetgroup-middle .login-box .panel {margin-bottom: 0; background-color: #fff; border: 1px solid transparent;
+border-radius: 4px;    border: solid 1px #d2cfcf;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+#thepowernetgroup-middle .login-box .btn-success {color: #fff;background-color: #307ec7;border-color: #67aae1;
+border-radius: 0;}
+#thepowernetgroup-middle .login-box .btn-success:hover {color: #2c86d5;background-color: #f5f5f5;border-color: #000600;}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+#thepowernetgroup-middle .form-area-full .information-area h2 {color: #307fc9;font-size: 12px;font-weight: 500;
+margin-bottom: 0; line-height: 0;margin-top: 35px;}}
+ 
+ 
+/*-----------------------------------------*/
+/* 		 thepowernetgroup-middle-end       */
+/*-----------------------------------------*/
+
+
+/*-----------------------------------------*/
+/* 			     section-tab               */
+/*-----------------------------------------*/
+
+#section-tab{position:relative; overflow: hidden; padding: 40px 0;}
+#section-tab h2{font-size: 30px;color: #000;text-align: center;text-transform: uppercase;font-weight: 500;}
+#section-tab .head-underline::before {background:#2881cc none repeat scroll 0 0;}
+#section-tab .head-underline::before {background:#2881cc none repeat scroll 0 0;content: "";display: block;
+height: 2px;margin: 0 auto;width: 220px;}
+
+#section-tab .head-underline::after {background:#2881cc none repeat scroll 0 0;}
+#section-tab .head-underline::after {height: 3px; top: -4px;}
+#section-tab .head-underline::after { background:#2881cc none repeat scroll 0 0;  content: ""; display: block;
+height: 6px;margin: 0 auto; position: relative; top: -6px; width: 60px;}
+.head-underline{padding-bottom: 40px;}
+#section-tab .card-process {text-align: center;}
+
+#section-tab .card-process header { position: relative;}
+#section-tab .card-process header::before, #section-tab .card-process header::after { background-color: #ccc;content: "";
+height: 1px;position: absolute;top: 50%;transition: all 0.25s ease-in-out 0s; width: 38%;z-index: -1;}
+
+#section-tab .card-process header::before {left: -15px;}
+#section-tab .card-process header::after {right: -15px;}
+#section-tab .card-process header span {  background: #fff none repeat scroll 0 0; border: 1px solid #ccc;
+border-radius: 100%;display: inline-block;font-size: 44px;padding: 28px;transition: all 0.25s ease-in-out 0s;
+box-shadow: 0 1px 5px #bbb inset;cursor:pointer;}
+#section-tab .card-process header.first::before, #section-tab .card-process header.last::after {display: none;}
+#section-tab .card-process .card-block h5 {font-weight: 500;margin: 10px 0;text-align: center;}
+
+#section-tab .card-process .card-block P {color: #666;}
+
+#section-tab .card-process:hover header span {border-color:#2e82ce; color:#2e82ce;}
+#section-tab .card-process:hover header::before, #section-tab .card-process:hover header::after 
+{background-color:#2e82ce;}
+
+
+
+@media only screen and (max-width: 767px) { #section-tab .card-process #section-tab .card-block h5 {font-weight: 900;}}
+@media only screen and (max-width: 767px) {#section-tab .card-process .card-block {padding-top: 5px;}}
+@media only screen and (max-width: 767px) {#section-tab .card-process header::before, .card-process header::after {
+display: none;}}
+
+@media only screen and (max-width: 767px) { #section-tab .card-process { margin-bottom: 30px;}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------*/
+/* 		    thepowernetgroup-Footer        */
+/*-----------------------------------------*/
+
+
+#thepowernetgroup-Footer{position:relative; overflow:hidden; color:#000;background:#c7c7c7;padding: 10px;
+border-top:solid 2px #0579ea;}
+#thepowernetgroup-Footer  p{ text-align: center;font-size: 14px;color: #000;font-weight: 400;line-height: 0px;
+margin-bottom: 0;line-height: 40px;}
+
+/*Social Widget*/
+#thepowernetgroup-Footer .social ul.social_icons li {display: inline-block;}
+#thepowernetgroup-Footer .social ul.social_icons li a{width: 30px;height: 30px;font-size: 0px;
+background: url(../../../i.imgur.com/MkUfchL.png) no-repeat;margin-top: 4px;display:block;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+#thepowernetgroup-Footer .social ul.social_icons li.facebook a:hover{background-position: 0 -33px;} 
+#thepowernetgroup-Footer .social ul.social_icons li.twitter a{background-position:-33px 0;} 
+#thepowernetgroup-Footer .social ul.social_icons li.twitter a:hover{background-position:-33px -33px;}
+#thepowernetgroup-Footer .social ul.social_icons li.insta a{background-position: -66px 0;} 
+#thepowernetgroup-Footer .social ul.social_icons li.insta a:hover{background-position: -66px -33px;}
+#thepowernetgroup-Footer .social ul.social_icons li.youtube a {background-position: -99px 0;}
+#thepowernetgroup-Footer .social ul.social_icons li.youtube a:hover {background-position: -99px -33px;}
+#thepowernetgroup-Footer .social ul.social_icons li.pin a {background-position: -132px 0;}
+#thepowernetgroup-Footer .social ul.social_icons li.pin a:hover {background-position: -132px -33px;}
+
+/*-----------------------------------------*/
+/* 		thepowernetgroup-Footer-end        */
+/*-----------------------------------------*/
+
+
+
+@media (min-width: 3000px) and (max-width:5000px) { #thepowernetgroup-01-first .nav-center {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+.navbar .nav > li > a {
+    float: none;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 9px 14px !important;
+} }
+
+@media (min-width: 5001px) and (max-width:7000px) { #thepowernetgroup-01-first .nav-center {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+.navbar .nav > li > a {
+    float: none;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 9px 14px !important;
+} }
+
+
+
+/*-----------------------------------------*/
+/* 	        thepowernetgroup-contact       */
+/*-----------------------------------------*/
+
+#contact-us{position: relative; padding:0;width:100%; float:left; overflow: hidden; background: #fff;
+margin-bottom: 10px;}
+#contact-us .contact-full{width: 100%;float: left;margin-bottom: 20px;overflow: hidden; padding: 60px 0;}
+#contact-us .contact-full .map-area{width: 100%;float: left;overflow: hidden;padding: 0; margin-top:40PX;}
+
+#contact-us .contact-full .con-form {min-height: 20px;padding: 19px;margin-bottom: 20px;background-color: #fff;border: 1px solid #e3e3e3;
+border-radius: 4px;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);box-shadow: inset 0 1px 1px rgba(0,0,0,.05);}
+
+#contact-us .contact-full .con-form h1{text-align: center;color: #3573b3;font-size: 22px;text-transform: uppercase;
+font-weight: 600;}
+#contact-us .contact-full .con-form .form-container{padding:0 !important;border-top:none !important;}
+#contact-us .contact-full .con-form .form-container form label span {display: inline-block;vertical-align: middle;
+padding: 0px 20px;font-size: 15px;font-weight: 500;color: #a0a0a0;}
+
+#contact-us .contact-full .con-form .form-container form input, .form-container form textarea {padding: 10px;}
+
+#contact-us .contact-full .image-area2{width: 100%;float: left;}
+#contact-us .contact-full .image-area2 img{ width:100%;}
+
+#contact-us .contact-full .con-form .form-container form button {color: #fff;border: 1px solid #307dc6;
+background: rgb(48, 125, 198);border-radius: 0;outline: none;padding: 10px 20px;}
+#contact-us .contact-full .con-form .form-container form button:hover {color: #317bc1; border: 1px solid #000408;
+background: rgba(48, 125, 198, 0);border-radius: 0;outline: none;padding: 10px 20px;}
+
+
+
+/*-----------------------------------------*/
+/* 	    thepowernetgroup-contact-end       */
+/*-----------------------------------------*/
+
+
+
+/*-----------------------------------------*/
+/* 	    thepowernetgroup-who-we-are        */
+/*-----------------------------------------*/
+
+#our-mission{position: relative; padding:0;width:100%; float:left; overflow: hidden; background: #fff;
+margin-bottom: 10px;}
+#our-mission .heading{ width: 100%;float: left; padding: 10px; margin-top:40px; margin-bottom:0;}
+#our-mission .heading h2{ font-size: 30px;color: #000;text-align: center; text-transform: uppercase;
+font-weight: 500;}
+
+#our-mission .head-underline::before {background:#2881cc none repeat scroll 0 0;}
+#our-mission .head-underline::before {background:#2881cc none repeat scroll 0 0;content: "";display: block;
+height: 2px;margin: 0 auto;width: 220px;}
+#our-mission .head-underline::after {background:#2881cc none repeat scroll 0 0;}
+#our-mission .head-underline::after {height: 3px; top: -4px;}
+#our-mission .head-underline::after { background:#2881cc none repeat scroll 0 0;  content: ""; display: block;
+height: 6px;margin: 0 auto; position: relative; top: -6px; width: 60px;}
+#our-mission .head-underline{padding-bottom: 40px;}
+
+#our-mission .heading p{ font-size: 14px;color: #888;text-align:center;font-weight: 500;margin-bottom: 20px;}
+
+#our-mission .details-section{ width:100%; float:left;    margin-bottom: 40px;}
+
+#our-mission .details-section  .card { background:#FFF;display: block;display: -webkit-box; display: -webkit-flex;
+display: -ms-flexbox;display: flex;border:1px solid #AAA;border-bottom:3px solid #BBB;padding:0px;margin-top:20px;
+overflow:hidden;box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+font-family: 'Roboto', sans-serif;
+-webkit-transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);}
+
+#our-mission .details-section  .card-body{margin:1em;   }
+#our-mission .details-section  .pull-left {float: left;}
+
+#our-mission .details-section  .pull-none {float: none !important;}
+
+#our-mission .details-section  .pull-right {float: right;}
+
+#our-mission .details-section  .card-header{width:100%;color:#2196F3; border-bottom:3px solid #BBB;
+box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);font-family: 'Roboto', sans-serif;
+padding:0px;margin-top:0px;overflow:hidden;
+-webkit-transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);}
+#our-mission .details-section  .card-header-blue{ background-color:#2196F3;color:#FFFFFF;border-bottom:3px solid #BBB;
+box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);font-family: 'Roboto', sans-serif;
+padding:0px;margin-top:0px;overflow:hidden;
+-webkit-transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);}
+ 
+#our-mission .details-section  .card-header-red{ background-color:#F44336;color:#FFFFFF;border-bottom:3px solid #BBB;
+box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);font-family: 'Roboto', sans-serif;
+padding:0px;margin-top:0px;overflow:hidden;
+-webkit-transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);}
+
+#our-mission .details-section  .card-header-grey{background-color:#2196f3;color:#FFFFFF;border-bottom:3px solid #BBB;
+box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);font-family: 'Roboto', sans-serif;
+padding:0px;margin-top:0px; overflow:hidden;
+-webkit-transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);}
+
+#our-mission .details-section  .card-header-orange{background-color:#000000;color:#FFFFFF;border-bottom:3px solid #BBB;
+box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);font-family: 'Roboto', sans-serif;
+padding:0px;margin-top:0px; overflow:hidden;
+-webkit-transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+ transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);}
+
+#our-mission .details-section  .card-heading {display: block;font-size: 24px;line-height: 28px;margin-top: 15px;
+margin-bottom: 15px;margin-left:1em;border-bottom: 1px #2196F3;
+color:#fff;}
+#our-mission .details-section  .card-action-grey{color:#424242;}
+#our-mission .details-section  .card-action-orange{ color:#E65100;}
+#our-mission .details-section  .img-fill  {max-height: 100%;max-width: 100% display :inline-block;margin: 1em;}
+            
+#our-mission .details-section   .card-image {overflow: hidden;position: relative;margin-bottom: 1em;}
+#our-mission .details-section  	.card-image:first-child {border-radius: 2px 2px 0 0;}
+#our-mission .details-section  	.card-image:last-child {border-radius: 0 0 2px 2px;}
+#our-mission .details-section  	.card-image img {display: block;height: auto;width: 100%;}
+
+#our-mission .details-section  	.card-image-text {
+background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.5));
+background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));color: #ffffff;
+font-size: 20px;line-height: 28px;margin: 0;padding: 12px 16px;position: absolute;bottom: 0;left: 0;width: 100%;}
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------*/
+/* 	       thepowernetgroup-service        */
+/*-----------------------------------------*/
+
+#our-service{position: relative; padding:0;width:100%; float:left; overflow: hidden; background: #fff;
+margin-bottom: 10px;}
+#our-service .heading{ width: 100%;float: left; padding: 10px; margin-top:40px; margin-bottom:0;}
+#our-service .heading h2{ font-size: 30px;color: #000;text-align: center; text-transform: uppercase;
+font-weight: 500;}
+
+#our-service .head-underline::before {background:#2881cc none repeat scroll 0 0;}
+#our-service .head-underline::before {background:#2881cc none repeat scroll 0 0;content: "";display: block;
+height: 2px;margin: 0 auto;width: 220px;}
+#our-service .head-underline::after {background:#2881cc none repeat scroll 0 0;}
+#our-service .head-underline::after {height: 3px; top: -4px;}
+#our-service .head-underline::after { background:#2881cc none repeat scroll 0 0;  content: ""; display: block;
+height: 6px;margin: 0 auto; position: relative; top: -6px; width: 60px;}
+#our-service .head-underline{padding-bottom: 40px;}
+
+#our-service .heading p{ font-size: 14px;color: #888;text-align:center;font-weight: 500;margin-bottom: 20px;}
+#our-service   .type-of-service{ width:100%; float:left; padding:0; position:relative;}
+#our-service   .type-of-service   .iconcontainer { margin-top: 20px;margin-bottom: 20px;}
+#our-service   .type-of-service   .iconbox { background: #ffffff; background-color: #ffffff;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px; border-radius: 6px;
+box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12); padding: 20px 25px; text-align: right;
+display: block; margin-top: 60px;margin-bottom: 15px;}
+#our-service   .type-of-service   .iconbox-icon { background-color: #008EED;
+box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);border-radius: 50%;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;margin: 0 auto;width: 100px; height: 100px;margin-top: -70px;}
+#our-service   .type-of-service   .iconbox-icon span {color: #fff;font-size: 42px;display: block; margin-left: auto;
+margin-right: auto;padding-top: 29px;text-align: center;vertical-align: middle;}
+#our-service   .type-of-service   .featureinfo h4 {letter-spacing: 1px; text-transform: uppercase;margin-top: 31px;
+display: block;font-size: 24px; line-height: 28px;margin-bottom: 15px; margin-left: 1em;border-bottom: 1px #2196F3;
+color: #000;margin-top: 31px;}
+#our-service   .type-of-service   .featureinfo > p { font-size: 14px;color: #888; text-align: center; font-weight: 500;
+margin-bottom: 20px;}
+#our-service   .type-of-service   .btn-default { text-shadow: 0px 1px 0px #FFF;
+background-image: linear-gradient(to bottom, #FFF 0px, #E0E0E0 100%);background-repeat: repeat-x;
+border-color: #CCC;box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 1px rgba(0, 0, 0, 0.075);}
+#our-service   .type-of-service   .btn-default:hover,
+.btn-default:focus {background-color: #e0e0e0; background-position: 0 -15px}
+
+
+
+
+
+
+
+
+/*-----------------------------------------*/
+/* 	  thepowernetgroup-Social-enterprise   */
+/*-----------------------------------------*/
+
+#our-Social-enterprise {position: relative; padding:0;width:100%; float:left; overflow: hidden; background: #fff;
+margin-bottom: 10px;}
+#our-Social-enterprise .heading{ width: 100%;float: left; padding: 10px; margin-top:40px; margin-bottom:0;}
+#our-Social-enterprise .heading h2{ font-size: 30px;color: #000;text-align: center; text-transform: uppercase;
+font-weight: 500;}
+
+#our-Social-enterprise .head-underline::before {background:#2881cc none repeat scroll 0 0;}
+#our-Social-enterprise .head-underline::before {background:#2881cc none repeat scroll 0 0;content: "";display: block;
+height: 2px;margin: 0 auto;width: 220px;}
+#our-Social-enterprise .head-underline::after {background:#2881cc none repeat scroll 0 0;}
+#our-Social-enterprise .head-underline::after {height: 3px; top: -4px;}
+#our-Social-enterprise .head-underline::after { background:#2881cc none repeat scroll 0 0;  content: ""; display: block;
+height: 6px;margin: 0 auto; position: relative; top: -6px; width: 60px;}
+#our-Social-enterprise .head-underline{padding-bottom: 40px;}
+#our-Social-enterprise .heading p{ font-size: 14px;color: #888;text-align:center;font-weight: 500;margin-bottom: 20px;}
+#our-Social-enterprise .heading h3{ font-size: 20px;color: #888;text-align:center;font-weight: 500;margin-bottom: 20px;}
+
+
+
+
+#our-Social-enterprise .Social-area-full{ width:100%; float:left; padding:0; position:relative;    margin-bottom: 40px;}
+#our-Social-enterprise .Social-area-full  .content-box img{ width: 100%; height: 100%;}
+#our-Social-enterprise .Social-area-full  .content-box a{ display: block; color: #ffffff; font-size: 18px; font-weight: 700;
+font-family: 'Montserrat', sans-serif; position: relative;}
+#our-Social-enterprise .Social-area-full  .content-link{ position: absolute; top: 0;left: 0; opacity: 0; width:  100%;
+height: 100%; padding: 25% 0; line-height: 45px;
+background: -moz-linear-gradient(top, #104680 0%, #3c8ed3 100%); /* FF3.6-15 */
+background:-webkit-linear-gradient(top, #104680 0%, #3c8ed3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #104680 0%, #3c8ed3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e68282', endColorstr='#f0d68a', GradientType=0); /* IE6-9 */
+transition: all 0.6s;}
+
+#our-Social-enterprise .Social-area-full    .content-link i{display: block;font-size: 25px;}
+
+#our-Social-enterprise .Social-area-full   .content-box a:hover .content-link{ opacity: 0.9;
+-webkit-box-shadow: 10px 10px 0px 0px rgb(199, 199, 199);
+-moz-box-shadow: 10px 10px 0px 0px rgb(199, 199, 199);
+box-shadow:10px 10px 0px 0px rgb(199, 199, 199);}
+
+.mr-b{ margin-bottom:40px;}
+.mr-b20{ margin-bottom:20px;}
+
+
+
+
+
+
+
+/*-----------------------------------------*/
+/* 	  	 thepowernetgroup-our-advocacy     */
+/*-----------------------------------------*/
+
+
+
+#our-advocacy {position: relative; padding:0;width:100%; float:left; overflow: hidden; background: #fff;
+margin-bottom: 10px;}
+#our-advocacy .heading{ width: 100%;float: left; padding: 10px; margin-top:40px; margin-bottom:0;}
+#our-advocacy .heading h2{ font-size: 30px;color: #000;text-align: center; text-transform: uppercase;
+font-weight: 500;}
+
+#our-advocacy .head-underline::before {background:#2881cc none repeat scroll 0 0;}
+#our-advocacy .head-underline::before {background:#2881cc none repeat scroll 0 0;content: "";display: block;
+height: 2px;margin: 0 auto;width: 220px;}
+#our-advocacy .head-underline::after {background:#2881cc none repeat scroll 0 0;}
+#our-advocacy .head-underline::after {height: 3px; top: -4px;}
+#our-advocacy .head-underline::after { background:#2881cc none repeat scroll 0 0;  content: ""; display: block;
+height: 6px;margin: 0 auto; position: relative; top: -6px; width: 60px;}
+#our-advocacy .head-underline{padding-bottom: 40px;}
+#our-advocacy .heading p{ font-size: 14px;color: #888;text-align:center;font-weight: 500;margin-bottom: 20px;}
+#our-advocacy .heading h3{ font-size: 20px;color: #888;text-align:center;font-weight: 500;margin-bottom: 20px;}
+
+.mr-b{ margin-bottom:40px;}
+.mr-b20{ margin-bottom:20px;}
+
+.advocacy-area{position: relative; overflow: hidden;    padding: 0;
+    text-align: center;
+    margin-bottom: 40px; text-align: center;}
+.advocacy-area h1{text-align: center; color: #fff; text-transform:uppercase;}
+.advocacy-area h4{margin-top: 50px; text-transform: uppercase; color:#000;}
+.advocacy-area .left-0 { padding-left: 0 !important;}
+.advocacy-area img{margin-bottom: 20px;}
+.advocacy-area .btn{margin: 20px 0;}
+
+
+
+/*-----------------------------------------*/
+/* 	  thepowernetgroup-community-events    */
+/*-----------------------------------------*/
+
+
+
+#community-events {position: relative; padding:0;width:100%; float:left; overflow: hidden; background: #fff;
+margin-bottom: 10px;}
+#community-events .heading{ width: 100%;float: left; padding: 10px; margin-top:40px; margin-bottom:0;}
+#community-events .heading h2{ font-size: 30px;color: #000;text-align: center; text-transform: uppercase;
+font-weight: 500;}
+
+#community-events .head-underline::before {background:#2881cc none repeat scroll 0 0;}
+#community-events .head-underline::before {background:#2881cc none repeat scroll 0 0;content: "";display: block;
+height: 2px;margin: 0 auto;width: 220px;}
+#community-events .head-underline::after {background:#2881cc none repeat scroll 0 0;}
+#community-events .head-underline::after {height: 3px; top: -4px;}
+#community-events .head-underline::after { background:#2881cc none repeat scroll 0 0;  content: ""; display: block;
+height: 6px;margin: 0 auto; position: relative; top: -6px; width: 60px;}
+#community-events .head-underline{padding-bottom: 40px;}
+#community-events .heading p{ font-size: 14px;color: #888;text-align:center;font-weight: 500;margin-bottom: 20px;}
+#community-events .heading h3{ font-size: 20px;color: #888;text-align:center;font-weight: 500;margin-bottom: 20px;}
+
+.mr-b{ margin-bottom:40px;}
+.mr-b20{ margin-bottom:20px;}
+
+
+#community-events   figure.snip1312 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 250px;
+  max-width: 347px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+#community-events   figure.snip1312 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#community-events   figure.snip1312 img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+#community-events   figure.snip1312 figcaption {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  padding: 15px 15px 30px;
+  background-color: #ffffff;
+}
+#community-events   figure.snip1312 .date {
+  background-color:#2881cc;
+  top: 15px;
+  color: #fff;
+  left: 15px;
+  min-height: 48px;
+  min-width: 48px;
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#community-events   figure.snip1312 .date span {
+  display: block;
+  line-height: 24px;
+}
+#community-events   figure.snip1312 .date .month {
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#community-events   figure.snip1312 h3,
+figure.snip1312 p {
+  margin: 0;
+  padding: 0;
+}
+#community-events   figure.snip1312 h3 {
+  min-height: 50px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#community-events   figure.snip1312 p {
+  font-size: 0.8em;
+  margin-bottom:0;
+  line-height: 1.6em;
+}
+#community-events   figure.snip1312 footer {
+  padding: 0 25px;
+  background-color: #667273;
+  color: #e6e6e6;
+  font-size: 0.8em;
+  line-height: 30px;
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+#community-events   figure.snip1312 footer > div {
+  display: inline-block;
+  margin-left: 10px;
+}
+#community-events   figure.snip1312 footer i {
+  color: rgba(255, 255, 255, 0.2);
+  margin-right: 5px;
+}
+#community-events   figure.snip1312 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+#community-events   figure.snip1312:hover img,
+figure.snip1312.hover img {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {#community-events   figure.snip1312 {
+  max-width: 285px; }}
+
+@media (min-width: 768px) and (max-width: 991px) {#community-events   figure.snip1312 {
+  max-width: 331px; }}
+
+@media (min-width: 320px) and (max-width: 767px) {#community-events   figure.snip1312 {
+max-width: 1000px;}
+#community-events figure.snip1312 img {
+    width: 100%;
+}}
+
+@media (min-width: 320px) and (max-width: 500px) {
+#community-events .heading h2 {
+    font-size: 22px;
+}}
+
+
+/*-----------------------------------------*/
+/* 	 		 thepowernetgroup-workshop      */
+/*-----------------------------------------*/
+    
+	
+#workshop-page {position: relative; padding:0;width:100%; float:left; overflow: hidden; background: #fff;
+margin-bottom: 10px;}
+#workshop-page .heading{ width: 100%;float: left; padding: 10px; margin-top:40px; margin-bottom:0;}
+#workshop-page .heading h2{ font-size: 30px;color: #000;text-align: center; text-transform: uppercase;
+font-weight: 500;}
+
+#workshop-page .head-underline::before {background:#2881cc none repeat scroll 0 0;}
+#workshop-page .head-underline::before {background:#2881cc none repeat scroll 0 0;content: "";display: block;
+height: 2px;margin: 0 auto;width: 220px;}
+#workshop-page .head-underline::after {background:#2881cc none repeat scroll 0 0;}
+#workshop-page .head-underline::after {height: 3px; top: -4px;}
+#workshop-page .head-underline::after { background:#2881cc none repeat scroll 0 0;  content: ""; display: block;
+height: 6px;margin: 0 auto; position: relative; top: -6px; width: 60px;}
+#workshop-page .head-underline{padding-bottom: 40px;}
+#workshop-page .heading p{ font-size: 14px;color: #888;text-align:center;font-weight: 500;margin-bottom: 20px;}
+#workshop-page .heading h3{ font-size: 20px;color: #888;text-align:center;font-weight: 500;margin-bottom: 20px;}
+
+.mr-b{ margin-bottom:40px;}
+.mr-b20{ margin-bottom:20px;}
+
+
+#workshop-page  .workshop-inner h1,h5,h6{text-align: center;}
+#workshop-page  .workshop-inner h6{color: #000; margin: 10px 0;}
+#workshop-page  .workshop-inner h5{font-weight: 600;}
+#workshop-page  .workshop-inner .btn{margin: 10px 0; border-radius: 3px;}
+#workshop-page  .workshop-inner .blog-container {float:left; width: 100%;    padding: 15px;
+    background: #eee;}
+	
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------*/
+/* 	 	 thepowernetgroup-our-clients      */
+/*-----------------------------------------*/
+    
+	
+#our-clients-page {position: relative; padding:0;width:100%; float:left; overflow: hidden; background: #fff;
+margin-bottom: 10px;}
+#our-clients-page .heading{ width: 100%;float: left; padding: 10px; margin-top:40px; margin-bottom:0;}
+#our-clients-page .heading h2{ font-size: 30px;color: #000;text-align: center; text-transform: uppercase;
+font-weight: 500;}
+
+#our-clients-page .head-underline::before {background:#2881cc none repeat scroll 0 0;}
+#our-clients-page .head-underline::before {background:#2881cc none repeat scroll 0 0;content: "";display: block;
+height: 2px;margin: 0 auto;width: 220px;}
+#our-clients-page .head-underline::after {background:#2881cc none repeat scroll 0 0;}
+#our-clients-page .head-underline::after {height: 3px; top: -4px;}
+#our-clients-page .head-underline::after { background:#2881cc none repeat scroll 0 0;  content: ""; display: block;
+height: 6px;margin: 0 auto; position: relative; top: -6px; width: 60px;}
+#our-clients-page .head-underline{padding-bottom: 40px;}
+#our-clients-page .heading p{ font-size: 14px;color: #888;text-align:center;font-weight: 500;margin-bottom: 20px;}
+#our-clients-page .heading h3{ font-size: 20px;color: #888;text-align:center;font-weight: 500;margin-bottom: 20px;}
+
+.mr-b{ margin-bottom:40px;}
+.mr-b20{ margin-bottom:20px;}
+	
+	
+#our-clients-page #our-team-area{position: relative; overflow: hidden;float: left;width: 100%;padding: 70px 0;}
+
+#our-clients-page #our-team-area .our-team-area-inner{float: left; width: 100%;}
+
+#our-clients-page  #our-team-area .our-team-area-inner .our-team-area-inner-content{float: left; width: 100%;
+margin-bottom: 30px;}
+
+#our-clients-page  #our-team-area .our-team-area-inner .our-team-area-inner-content
+.our-team-area-inner-content-img{
+float: left;width: 100%;    padding: 10px; background: #e0dddd;}
+
+#our-clients-page  #our-team-area .our-team-area-inner .our-team-area-inner-content 
+.our-team-area-inner-content-details{
+float: left;width: 100%;}
+
+#our-clients-page  #our-team-area .our-team-area-inner .our-team-area-inner-content 
+.our-team-area-inner-content-details h3{text-transform: capitalize; color:#327ac0; position: relative;}
+
+#our-clients-page  #our-team-area .our-team-area-inner .our-team-area-inner-content 
+.our-team-area-inner-content-details h3::after{ position: absolute; content: "";top: 35px;left: 0; width: 50px;
+ height: 1px; background-color: #327ac0;border-radius: 4px;}
+
+#our-clients-page  #our-team-area .our-team-area-inner .our-team-area-inner-content 
+.our-team-area-inner-content-details h3 span{ text-transform: capitalize; color: #327ac0;font-size: 15px;}
+
+#our-clients-page  #our-team-area .our-team-area-inner .our-team-area-inner-content 
+.our-team-area-inner-content-details ul{ padding: 0; margin: 0; margin-top: 10px;}
+
+#our-clients-page  #our-team-area .our-team-area-inner .our-team-area-inner-content
+ .our-team-area-inner-content-details li{ display: inline-block;}
+
+#our-clients-page  #our-team-area .our-team-area-inner .our-team-area-inner-content 
+.our-team-area-inner-content-details li .fa {  height: 40px; width: 40px; background-color: #f2f2f2;
+text-align: center;line-height: 40px; color: #565555;transition: background .4s ease;}
+
+#our-clients-page  #our-team-area .our-team-area-inner .our-team-area-inner-content
+.our-team-area-inner-content-details li .fa:hover { background-color:#327ac0;color: #ffffff;}
+
+
+
+
+
+
+
+/*-----------------------------------------*/
+/* 	 	 thepowernetgroup-our-partners      */
+/*-----------------------------------------*/
+    
+	
+#our-partners-page {position: relative; padding:0;width:100%; float:left; overflow: hidden; background: #fff;
+margin-bottom: 10px;}
+#our-partners-page .heading{ width: 100%;float: left; padding: 10px; margin-top:40px; margin-bottom:0;}
+#our-partners-page .heading h2{ font-size: 30px;color: #000;text-align: center; text-transform: uppercase;
+font-weight: 500;}
+
+#our-partners-page .head-underline::before {background:#2881cc none repeat scroll 0 0;}
+#our-partners-page .head-underline::before {background:#2881cc none repeat scroll 0 0;content: "";display: block;
+height: 2px;margin: 0 auto;width: 220px;}
+#our-partners-page .head-underline::after {background:#2881cc none repeat scroll 0 0;}
+#our-partners-page .head-underline::after {height: 3px; top: -4px;}
+#our-partners-page .head-underline::after { background:#2881cc none repeat scroll 0 0;  content: ""; display: block;
+height: 6px;margin: 0 auto; position: relative; top: -6px; width: 60px;}
+#our-partners-page .head-underline{padding-bottom: 40px;}
+#our-partners-page .heading p{ font-size: 14px;color: #888;text-align:center;font-weight: 500;margin-bottom: 20px;}
+#our-partners-page .heading h3{ font-size: 20px;color: #888;text-align:center;font-weight: 500;margin-bottom: 20px;}
+
+.mr-b{ margin-bottom:40px;}
+.mr-b20{ margin-bottom:20px;}
+
+
+
+#our-partners-page   figure.snip0008 {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 220px;
+  width: 100%;
+  background: #000000;
+  text-align: center;
+  cursor: pointer;
+}
+#our-partners-page   figure.snip0008 img {
+  max-width: 100%;
+  opacity: 1;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+#our-partners-page   figure.snip0008 > div a {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #ffffff;
+}
+#our-partners-page   figure.snip0008 > div a i::before {
+  font-size: 56px;
+  opacity: 0;
+  top: 55%;
+  position: relative;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  display: inline-block;
+}
+#our-partners-page   figure.snip0008 > div::before {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  bottom: 50%;
+  left: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+  content: '';
+  opacity: 0;
+  background-color: #ffffff;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+#our-partners-page   figure.snip0008:hover img {
+  opacity: 0.5;
+}
+#our-partners-page   figure.snip0008:hover > div i:before {
+  opacity: 0.9;
+  top: 50%;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+#our-partners-page   figure.snip0008:hover > div::before {
+  background: rgba(255, 255, 255, 0);
+  top: 30px;
+  bottom: 30px;
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+
+
+
+
+
